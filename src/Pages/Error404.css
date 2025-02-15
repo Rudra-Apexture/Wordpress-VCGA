@@ -1,0 +1,87 @@
+.Error-Page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* Make sure the page takes up the full viewport height */
+}
+
+.error-image {
+  animation: wobble 4s ease-in-out infinite;
+}
+
+/* Wobble Animation */
+@keyframes wobble {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-10px) rotate(5deg);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
+}
+
+/* Animation for loading elements */
+.animate-on-load {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animate-on-load.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Text Animation */
+.text-animate {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.text-animate.text-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* Button Hover Animation */
+.button-hover-animation {
+  position: relative;
+  overflow: hidden;
+  /* Hide any overflowing content */
+  transition: background-color 0.3s ease;
+  /* Smooth background transition */
+}
+
+.button-hover-animation::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  /* Start from the left edge */
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  /* Semi-transparent white overlay */
+  transition: left 0.3s ease;
+  /* Slide-in animation */
+  z-index: 1;
+}
+
+.button-hover-animation:hover {
+  background-color: #5784ff;
+  /* Slightly lighter blue on hover */
+}
+
+.button-hover-animation:hover::before {
+  left: 0;
+  /* Move the overlay to the right */
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "category": "Website Strategy",
+        "title": "Prepare Your WordPress Platform for 2025: A Strategic Audit Guide",
+        "author": "Bami Iroko",
+        "date": "December 11, 2024",
+        "readTime": "2 min read",
+        "image": "/assets/author1.webp"
+    },
+    {
+        "category": "Website Strategy, XWP News",
+        "title": "Preparing Your WordPress Site for Holiday Traffic: A Guide for Media Publishers",
+        "author": "Bami Iroko",
+        "date": "December 6, 2024",
+        "readTime": "2 min read",
+        "image": "/assets/author1.webp"
+    },
+    {
+        "category": "WordPress",
+        "title": "WordPress 6.7 Release",
+        "author": "Marcin Krzeminski",
+        "date": "November 20, 2024",
+        "readTime": "6 min read",
+        "image": "/assets/author2.webp"
+    },
+    {
+        "category": "Community, XWP News",
+        "title": "Empowering the future: celebrating International Day of the Girl Child 2024 at XWP",
+        "author": "Emily Kaija",
+        "date": "October 11, 2024",
+        "readTime": "11 min read",
+        "image": "/assets/author3.webp"
+    },
+    {
+        "category": "Community",
+        "title": "Our favorite talks from WordCamp US 2024",
+        "author": "Fernando Tessmann",
+        "date": "October 4, 2024",
+        "readTime": "8 min read",
+        "image": "/assets/author4.webp"
+    }
+]
